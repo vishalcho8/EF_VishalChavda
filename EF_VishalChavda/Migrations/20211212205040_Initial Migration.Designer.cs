@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EF_VishalChavda.Migrations
 {
     [DbContext(typeof(EFCont))]
-    [Migration("20211212204259_Initial Migration")]
+    [Migration("20211212205040_Initial Migration")]
     partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

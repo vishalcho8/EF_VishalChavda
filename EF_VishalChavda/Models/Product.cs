@@ -15,7 +15,7 @@ namespace EF_VishalChavda.Models
         [StringLength(100, MinimumLength = 3)]
         public string Description { get; set; }
 
-        [Required, Range(1, 100), DataType(DataType.Currency), Column(TypeName = "decimal(18, 2)")]
+        [Required, DataType(DataType.Currency), Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
     }
 }

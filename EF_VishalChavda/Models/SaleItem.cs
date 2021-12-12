@@ -20,7 +20,7 @@ namespace EF_VishalChavda.Models
         public DateTime EndDate { get; set; }
 
 
-        [Required, Range(1, 100), DataType(DataType.Currency), Column(TypeName = "decimal(18, 2)")]
+        [Required, DataType(DataType.Currency), Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
 
         public Product Product { get; set; } //Access all properties of Product in SalesItem
